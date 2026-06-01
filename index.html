@@ -26,6 +26,21 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+    <script>
+(function (d,h,w) {
+        s=d.createElement("script");
+        s.src="https://sense.sdk.convin.ai/";
+        e = d.getElementsByTagName(h)[0];
+        e.appendChild(s);
+        s.addEventListener("load", function (e) {
+            w.ConvinSense.init({
+            appId: "1ef28e1a-b084-4191-9b33-6b4ef5895e3a",
+            tenantId: "app",
+        });
+        }, false);
+
+})(document, "head", window);
+</script>
   </head>
 <!-- NAVBAR
 ================================================== -->
